@@ -1,0 +1,16 @@
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="mainLayout" template="/pages/layout.jsp">
+		<put-attribute name="header" value="/pages/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/pages/footer.jsp" />
+	</definition>
+	<definition name="home" extends="mainLayout">
+		<put-attribute name="body" value="/pages/home.jsp" />
+	</definition>
+	
+</tiles-definitions>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Kenneth
+Build-Jdk: 17.0.6
+Implementation-Title: icpanel
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.logistics
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/icpanel
+Created-By: Maven Integration for Eclipse
+
